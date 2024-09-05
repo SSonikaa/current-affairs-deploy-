@@ -1,0 +1,35 @@
+#datesdiv{
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  margin-top: 10px;
+  margin-bottom: 20px; /* Add some space between the date inputs and other elements */
+}
+#fetchbutton{
+    margin-top: 10px;
+    
+
+}
+#datesdiv input[type="date"] {
+    /* width: 100%; Make the input fields fill the entire width of their container */
+    width: calc(100% -5px); 
+    padding: 10px; /* Add some padding to the input fields */
+    border: 2px solid #ccc; /* Add a border to the input fields */
+    border-radius: 5px; /* Add some border radius to make the input fields rounded */
+    box-sizing: border-box; /* Ensure that padding and border are included in the width */
+    transition: border-color 0.3s ease; /* Add a smooth transition effect for border color */
+  }
+  
+  /* Style for the input fields when focused */
+  #datesdiv input[type="date"]:focus {
+    border-color: #f700ff; /* Change border color when input field is focused */
+    outline: none; /* Remove default focus outline */
+    
+  }
+  #datesdiv label {
+    /*  display: block; Display labels as block elements */
+    margin-bottom: 5px; /* Add some space below the labels */
+    font-weight: bold; /* Make labels bold */
+  }
+ 

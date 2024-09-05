@@ -1,0 +1,15 @@
+/* CSS */
+
+.footer-container {
+    padding-top: 5px; /* Reduce the padding to make the footer more compact */
+    margin-top: 10px; /* Adjust the top margin to control the space above the footer */
+  }
+  
+  .footer-social-media {
+    margin-bottom: 10px; /* Reduce the bottom margin of the social media icons */
+  }
+  
+  .footer-copyright {
+    padding-top: 5px; /* Reduce the top padding of the copyright text */
+  }
+  
